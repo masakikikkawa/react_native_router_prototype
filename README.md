@@ -11,17 +11,18 @@ $ brew install flow
 $ npm install -g react-native-cli
 ```
 
-#### ライブラリのインストール
-```
-$ npm install --save react-native-router-flux
-```
-
 #### react-native プロジェクトの生成
 ```
 $ react-native init hogeProject
 
 # versionを指定する場合
 $ react-native init hogeProject --version 0.49.0
+```
+
+#### ライブラリのインストール
+```
+$ cd hogeProject
+$ npm install --save react-native-router-flux
 ```
 
 #### シュミレーターの起動
